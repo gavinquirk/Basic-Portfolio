@@ -43,6 +43,13 @@ header {
     list-style-type: none;
     display: inline-block;
     padding: 5px;
+    border-right: 5px;
+    border-color: green;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #666666;
 }
 
 .content {
@@ -76,6 +83,7 @@ header {
     border-width: 2px;
     border-color: #dddddd;
     padding: 10px;
+    font-size: 24px;
 }
 
 #profile-image {
@@ -134,9 +142,34 @@ header {
 
 /* BEGINNING OF PORTFOLIO SPECIFIC STYLING */
 
-row project {
-    display: inline-block;
+td p {
+    float: left;
+    padding: 10px 5px;
+    width: 96.25%;
+    background: #4aaaa5;
+    margin-top: -50px;
+    position: relative;
+    top: 125px;
+    text-align: center;
+    color: #dddddd;
+    font-weight: bold;
 }
+
+table img {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    margin-left: 0%;
+}
+
+td {
+    padding: 0px 25px;
+    width: 300px;
+    height: 150px;
+}
+
 
 /* END OF PORTFOLIO STYLING */
 
@@ -144,9 +177,23 @@ row project {
 
 form {
     padding: 20px;
+    font-weight: bold;
 }
 
 input {
     padding: 5px 20px 5px 20px;
     margin: 20px;
 }
+
+button {
+    background: #4aaaa5;
+    padding: 10px 20px;;
+    border-style: none;
+}
+
+button h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
